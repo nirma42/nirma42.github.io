@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIChE Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <div class="start_btn">
+        <input class="text" type="text" placeholder="Enter first name" />
+        <button>Start Quiz</button>
+    </div>
+
+    <div class="info_box">
+        <div class="info-title"><span>Some Rules for this Quiz</span></div>
+        <div class="info-list">
+            <div class="info">1. Have to attempt all quesitons.</div>
+            <div class="info">2. You will have only <span>60 seconds</span> for 5 questions.</div>
+            <div class="info">3. Selecting of an answer can't be reversed.</div>
+            <div class="info">4. No selection can be done after time ends.</div>
+            <div class="info">5. No exit option during attempting.</div>
+            <div class="info">6. Each question carries 1 mark.</div>
+        </div>
+        <div class="buttons">
+            <a href="/index.html"><button class="quit">Exit Quiz</button></a>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+
+    <div class="quiz_box">
+        <header>
+            <div class="title">AIChE Quiz</div>
+            <div class="timer">
+                <div class="time_left_txt">Remaining Time</div>
+                <div class="timer_sec">60</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+            </div>
+            <div class="option_list">
+                
+            </div>
+        </section>
+
+
+        <footer>
+            <div class="total_que">
+            </div>
+            <button class="next_btn">Next</button>
+        </footer>
+    </div>
+
+    <div class="result_box">
+        <div class="complete_text">Quiz Completed!</div>
+        <div class="score_text">
+        </div>
+        <div class="buttons">
+            <button class="restart">Retake Quiz</button>
+            <a href="/index.html"><button class="quit">Quit</button></a>
+        </div>
+    </div>
+
+    <script src="questions.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

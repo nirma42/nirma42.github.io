@@ -1,0 +1,170 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    padding-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar{
+    padding-left: 30px;
+    color: azure;
+    background-color: #1A232B;
+    height: 65px;
+    display: flex;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.logo :hover{
+    cursor: pointer;
+}
+
+.logo img{
+    height: 40px;
+}
+
+
+.btns{
+    color: inherit;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.btns:hover {
+    font-weight: bold;
+}
+
+
+
+/*
+.theme img{
+    height: 40px;
+    justify-content: flex-end;
+    border-radius: 50%;
+}
+
+.theme{
+    margin-left: auto;
+    margin-right: 0px;
+}
+*/
+
+/* First Content */
+
+.first-content{
+    height: 400px;
+    background-color: #eef3f8;
+    display: flex;
+}
+
+.first-content img{
+    height: 250px;
+    position: relative;
+    margin-top: 200px;
+    transform: translateY(-50%);
+}
+
+
+.first-content .contents{
+    width: 490px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+/* Mission */
+
+.mission h1{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+.mission img{
+    width: 100%;
+}
+
+/* Messages */
+
+.messages{
+    height: 500px;
+    background-color: #E9ECEF;
+}
+
+.box{
+    height: 300px;
+    width: 800px;
+    margin-left: 50%;
+    transform: translate(-50%,50%);
+    background-color: black;
+}
+
+
+/* Footer */
+
+.footer{
+    max-height: 400px;
+    background-color: #D1D1D1;
+    font-size: 19px;
+    padding: 40px;
+}
+
+.footer ul{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.footer li{
+    color: rgb(23, 132, 168);
+}
+
+.address > p{
+    color: rgba(0, 0, 0, 0.651);
+}
+
+ul.events > li{
+    color: rgba(0, 0, 0, 0.651);
+    text-indent: 5px;
+}
+
+ul.events > li:before{
+    content: "-";
+    /* text-indent: 20px; */
+}
+.quiz{
+    margin: 20px auto;
+    padding: 30px;
+}
+.button{
+    margin: 20px auto;
+    width: 10vw;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    cursor: pointer;
+}
